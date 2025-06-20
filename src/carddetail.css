@@ -1,0 +1,55 @@
+h1{
+  color: var(--Deep-Violet, #21092F);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Heading (XL) */
+font-family: "Space Grotesk";
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.422px;
+}
+p{
+  color: var(--Purplish-Grey, #8F8694);
+text-align: center;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Heading (L) */
+font-family: "Space Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+button{
+width: 381px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 8px;
+background: var(--Deep-Violet, #21092F);
+color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Heading (L) */
+font-family: "Space Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.items{
+  width:20rem;
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+  align-items: center;
+  justify-content: center;
+ 
+  position:absolute;
+  z-index:999;
+  left:52rem;
+  top:10rem;
+
+}

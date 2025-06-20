@@ -1,0 +1,96 @@
+.main{
+  position:relative;
+}
+.card1{
+  top:10rem;
+  position:absolute;
+  left:10rem;
+  width: 27.93rem;
+height: 15.31rem;
+flex-shrink: 0;
+}
+.card2{
+  position:absolute;
+  top:27rem;
+  left:18rem;
+  width: 27.93rem;
+ height: 15.31rem;
+ flex-shrink: 0;
+}
+.text{
+  position: absolute;
+   z-Index: 999;
+    top:21rem;
+    left:12rem;
+     color:white;
+     display:inline-block;
+     font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+width:13rem;
+overflow:hidden;
+}
+.para{
+  position: absolute;
+   z-Index: 999;
+    top:15.8rem;
+    left:12rem;
+     color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Heading (XL) */
+font-family: "Space Grotesk";
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.422px;
+}
+.month{
+   position: absolute;
+   z-Index: 999;
+    top:21rem;
+    left:32rem;
+     color:white;
+     display:inline-block;
+     font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+}
+.year{
+   position: absolute;
+   z-Index: 999;
+    top:21rem;
+    left:35rem;
+     color:white;
+     display:inline-block;
+     font-family: "Space Grotesk";
+font-size: 24px;
+font-style: normal;
+}
+.cvc{
+  position:absolute;
+  top:34rem;
+  left:40rem;
+   color:white;
+   
+    font-family: "Space Grotesk";
+    color: var(--White, #FFF);
+text-align: right;
+font-feature-settings: 'liga' off, 'clig' off;
+/* Body (L) */
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+button {
+  pointer-events: auto;
+}
